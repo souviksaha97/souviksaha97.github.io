@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Non est ad astra mollis e terris via
+subtitle: <em>Non est ad astra mollis e terris via</em>
 
 profile:
   align: right
