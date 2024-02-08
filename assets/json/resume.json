@@ -1,48 +1,57 @@
 {
-  "selectedTemplate": 1,
-  "headings": {
-    "work": "",
-    "awards": "Publications",
-    "skills": "Skills and Interests"
-  },
   "basics": {
     "name": "Souvik Saha",
     "email": "st190810@stud.uni-stuttgart.de",
     "phone": "+49 15510509313",
     "location": {
-      "address": "Stuttgart, DE"
+      "address": "42B Pfaffenwaldring",
+      "postalCode": "70569",
+      "city": "Stuttgart",
+      "countryCode": "DE",
+      "region": "Baden-Württemberg"
     },
-    "website": "https://souviksaha97.github.io/"
+    "url": "https://souviksaha97.github.io/"
   },
   "education": [
     {
-      "institution": "Universitat Stuttgart",
+      "institution": "Universität Stuttgart",
       "location": "Stuttgart",
       "area": "Information Technology",
-      "studyType": "MSc",
-      "startDate": "October 2023",
-      "endDate": "Present",
-      "gpa": "-"
+      "studyType": "Master of Science",
+      "startDate": "2023.10",
+      "endDate": "Now",
+      "score": "-",
+      "courses": [
+        "Embedded Systems Engineering",
+        "Software Engineering for Real Time Systems",
+        "Sensor Principles and Integrated Circuits",
+        "Signal Processing and Analysis of Human Brain Potentials (EEG)"
+      ]
     },
     {
       "institution": "Vivekanand Education Society's Institute of Technology",
       "location": "Mumbai, India",
-      "studyType": "BE",
-      "area": "Instrumentation",
-      "gpa": "7.86",
-      "startDate": "July 2015",
-      "endDate": "June 2019"
+      "studyType": "Bachelor of Engineering",
+      "area": "Instrumentation Engineering",
+      "score": "7.86",
+      "startDate": "2015.07",
+      "endDate": "2019.06",
+      "courses": [
+        "Advanced Control Systems",
+        "Digital Signal Processing",
+        "Advanced Microcontrollers",
+        "Signal Conditioning and Circuit Design",
+        "Transducers"
+      ]
     }
   ],
   "work": [
     {
       "location": "Remote",
-      "position": "Studentische Hilfskraft",
+      "position": "  Studentische Hilfskraft",
       "website": "",
-      "startDate": "December 2023",
-      "highlights": [
-        "Responsible for firmware development and deployment of remote patient monitoring solution"
-      ],
+      "startDate": "2023.12",
+      "endDate": "Now",
       "company": "Sleepiz  AG"
     },
     {
@@ -55,8 +64,8 @@
       "company": "Sleepiz India Pvt. Ltd.",
       "position": "Embedded Software Developer",
       "location": "Pune, India",
-      "startDate": "July 2021",
-      "endDate": "September 2023"
+      "startDate": "2021.07",
+      "endDate": "2023.09"
     },
     {
       "highlights": [
@@ -68,8 +77,8 @@
       "company": "Ayu Devices Pvt. Ltd.",
       "position": "Embedded Systems Engineer",
       "location": "IIT Bombay, India",
-      "startDate": "July 2019",
-      "endDate": "June 2021"
+      "startDate": "2019.07",
+      "endDate": "2921.06"
     }
   ],
   "skills": [
@@ -77,7 +86,7 @@
       "name": "Technical Skills",
       "level": "",
       "keywords": [
-        "C, C++, Python, Tensorflow, OpenCV, Linux, Arduino, ARM, Git, Yocto, gcc, Eagle"
+        "C, C++, Python, Tensorflow, OpenCV, Linux, Arduino, ARM, Git, Yocto, gcc, cmake, Eagle"
       ]
     },
     {
@@ -115,15 +124,15 @@
     {
       "summary": "Co-authored a paper which deals with using ANSYS fluid flow simulation to predict the air flow inside the enclosure and redesigning it to improve acoustic performance.",
       "title": "S G Dubey , DSS Sudhakar and S Saha 2021 IOP Conf. Ser.: Mater. Sci. Eng. 1070 012109",
-      "awarder": "doi:10.1088/1757-899X/1070/1/012109"
+      "url": "doi:10.1088/1757-899X/1070/1/012109"
     },
     {
       "title": "Open Source Work",
-      "summary": "Published Arduino libraries to interface IC MCP3202 and IC DAC7611 to Arduino compatible boards."
+      "summary": "Published Arduino libraries to interface IC MCP3202 and IC DAC7611 to Arduino compatible boards.",
+      "url": "https://www.arduino.cc/reference/en/libraries/mcp3202/"
     }
   ],
   "sections": [
-    "templates",
     "profile",
     "education",
     "work",

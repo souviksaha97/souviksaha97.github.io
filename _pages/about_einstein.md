@@ -1,4 +1,6 @@
 
+# About Me
+
 I am a student of Information Technology at the University of Stuttgart with a passion for sensors, AI, embedded systems, low powered devices, and consumer electronics.
 
 I have worked in health tech start-ups for 4 years in India and have experience with C, Python, and Rust programming languages.
