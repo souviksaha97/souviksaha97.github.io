@@ -10,7 +10,14 @@
       "countryCode": "DE",
       "region": "Baden-Württemberg"
     },
-    "url": "https://souviksaha97.github.io/"
+    "url": "https://souviksaha97.github.io/",
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "AlbertEinstein",
+        "url": "https://twitter.com/AlbertEinstein"
+      }
+    ]
   },
   "education": [
     {
@@ -47,12 +54,12 @@
   ],
   "work": [
     {
+      "name": "Sleepiz  AG",
       "location": "Remote",
       "position": "  Studentische Hilfskraft",
       "website": "",
       "startDate": "2023.12",
-      "endDate": "Now",
-      "company": "Sleepiz  AG"
+      "endDate": "Now"
     },
     {
       "highlights": [
@@ -61,7 +68,7 @@
         "Coordinated embedded software verification, release, and deployment activities for a fleet of over 1000 devices in India, Europe and USA",
         "Established and maintained technical documentation for embedded software in accordance with ISO 13495 and testing as per IEC 62304"
       ],
-      "company": "Sleepiz India Pvt. Ltd.",
+      "name": "Sleepiz India Pvt. Ltd.",
       "position": "Embedded Software Developer",
       "location": "Pune, India",
       "startDate": "2021.07",
@@ -74,7 +81,7 @@
         "Improved the team's efficiency by 30% through automating various manual tasks in the testing process",
         "Contributed to the development of an automated testing harness reducing test times by 50%"
       ],
-      "company": "Ayu Devices Pvt. Ltd.",
+      "name": "Ayu Devices Pvt. Ltd.",
       "position": "Embedded Systems Engineer",
       "location": "IIT Bombay, India",
       "startDate": "2019.07",
@@ -120,24 +127,47 @@
       "description": "Worked on the Firebird V platform based on Atmega2560 and utilized OpenCV on Python to navigate a robot through a grid to perform pick and drop operations based on object size, shape and colour. Team reached the quarter finals of the competition."
     }
   ],
-  "awards": [
+  "publications": [
     {
-      "summary": "Co-authored a paper which deals with using ANSYS fluid flow simulation to predict the air flow inside the enclosure and redesigning it to improve acoustic performance.",
-      "title": "S G Dubey , DSS Sudhakar and S Saha 2021 IOP Conf. Ser.: Mater. Sci. Eng. 1070 012109",
-      "url": "doi:10.1088/1757-899X/1070/1/012109"
+      "name": "Airflow noise reduction in digital stethoscope addon device",
+      "publisher": "IOP Conference Series: Materials Science and Engineering",
+      "releaseDate": "December, 2020",
+      "url": "https://iopscience.iop.org/article/10.1088/1757-899X/1070/1/012109/pdf",
+      "summary": "Co-authored a paper which deals with using ANSYS fluid flow simulation to predict the air flow inside the enclosure and redesigning it to improve acoustic performance."
     },
     {
-      "title": "Open Source Work",
+      "name": "Open Source Work",
       "summary": "Published Arduino libraries to interface IC MCP3202 and IC DAC7611 to Arduino compatible boards.",
       "url": "https://www.arduino.cc/reference/en/libraries/mcp3202/"
     }
   ],
-  "sections": [
-    "profile",
-    "education",
-    "work",
-    "projects",
-    "awards",
-    "skills"
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "C2",
+      "icon": ""
+    },
+    {
+      "language": "German",
+      "fluency": "A1.1",
+      "icon": ""
+    },
+    {
+      "language": "Bengali",
+      "fluency": "Mother Tongue",
+      "icon": ""
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native",
+      "icon": ""
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Grade 5 Piano",
+      "date": "2023-07",
+      "issuer": "Trinity College London"
+    }
   ]
 }
