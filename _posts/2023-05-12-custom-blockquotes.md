@@ -8,25 +8,15 @@ categories: sample-posts
 giscus_comments: true
 related_posts: true
 ---
-<<<<<<< HEAD
-This post shows how to add custom styles for blockquotes. Based on [jekyll-gitbook](https://github.com/sighingnow/jekyll-gitbook) implementation.
-
-We decided to support the same custom blockquotes as in [jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html), which are also found in a lot of other sites' styles. The styles definitions can be found on the [_base.scss](https://github.com/alshedivat/al-folio/blob/master/_sass/_base.scss) file, more specifically:
-=======
 
 This post shows how to add custom styles for blockquotes. Based on [jekyll-gitbook](https://github.com/sighingnow/jekyll-gitbook) implementation.
 
 We decided to support the same custom blockquotes as in [jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html), which are also found in a lot of other sites' styles. The styles definitions can be found on the [\_base.scss](https://github.com/alshedivat/al-folio/blob/master/_sass/_base.scss) file, more specifically:
->>>>>>> upstream/master
 
 ```scss
 /* Tips, warnings, and dangers */
 .post .post-content blockquote {
-<<<<<<< HEAD
-    &.block-tip {
-=======
   &.block-tip {
->>>>>>> upstream/master
     border-color: var(--global-tip-block);
     background-color: var(--global-tip-block-bg);
 
@@ -34,16 +24,12 @@ We decided to support the same custom blockquotes as in [jekyll-gitbook](https:/
       color: var(--global-tip-block-text);
     }
 
-<<<<<<< HEAD
-    h1, h2, h3, h4, h5, h6 {
-=======
     h1,
     h2,
     h3,
     h4,
     h5,
     h6 {
->>>>>>> upstream/master
       color: var(--global-tip-block-title);
     }
   }
@@ -56,16 +42,12 @@ We decided to support the same custom blockquotes as in [jekyll-gitbook](https:/
       color: var(--global-warning-block-text);
     }
 
-<<<<<<< HEAD
-    h1, h2, h3, h4, h5, h6 {
-=======
     h1,
     h2,
     h3,
     h4,
     h5,
     h6 {
->>>>>>> upstream/master
       color: var(--global-warning-block-title);
     }
   }
@@ -78,16 +60,12 @@ We decided to support the same custom blockquotes as in [jekyll-gitbook](https:/
       color: var(--global-danger-block-text);
     }
 
-<<<<<<< HEAD
-    h1, h2, h3, h4, h5, h6 {
-=======
     h1,
     h2,
     h3,
     h4,
     h5,
     h6 {
->>>>>>> upstream/master
       color: var(--global-danger-block-title);
     }
   }
@@ -106,11 +84,8 @@ A regular blockquote can be used as following:
 
 These custom styles can be used by adding the specific class to the blockquote, as follows:
 
-<<<<<<< HEAD
-=======
 <!-- prettier-ignore-start -->
 
->>>>>>> upstream/master
 ```markdown
 > ##### TIP
 >
@@ -152,8 +127,5 @@ These custom styles can be used by adding the specific class to the blockquote, 
 > This is a danger zone, and thus should
 > be used carefully
 {: .block-danger }
-<<<<<<< HEAD
-=======
 
 <!-- prettier-ignore-end -->
->>>>>>> upstream/master
