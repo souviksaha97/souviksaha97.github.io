@@ -1,7 +1,12 @@
 github_users:
-  - souviksaha97
+  - torvalds
+  - alshedivat
 
 github_repos:
-  - souviksaha97/Snake
-  - souviksaha97/DAC7611
-  - souviksaha97/MCP3202
+  - alshedivat/al-folio
+  - twbs/bootstrap
+  - jekyll/jekyll
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - jpswalsh/academicons
+  - mathjax/MathJax

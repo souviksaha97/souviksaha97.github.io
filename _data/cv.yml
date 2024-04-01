@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Souvik Saha
+      value: Albert Einstein
     - name: Date of Birth
-      value: 4th March 1997
+      value: 14th March 1879
     - name: Languages
-      value: English, Hindi, Bengali, German
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: Master of Science
-      institution: Universitat Stuttgart, Stuttgart, Germany
-      year: 2023
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
         - Description 1.
         - Description 2.
@@ -21,9 +21,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Bachelor of Engineering
-      institution: Vivekananda Education Society's Institute of Technology, Mumbai, India
-      year: 2019
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
       description:
         - Description 1.
         - Description 2.
@@ -72,18 +72,18 @@
   type: time_table
   contents:
     - year: 1921
-      items: 
-        - Nobel Prize in Physics 
+      items:
+        - Nobel Prize in Physics
         - Matteucci Medal
     - year: 2029
-      items: 
+      items:
         - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Topic 1.
-      items: 
+      items:
         - Description 1.
         - Description 2.
     - title: Topic 2.

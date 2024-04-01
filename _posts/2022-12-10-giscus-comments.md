@@ -8,8 +8,5 @@ categories: sample-posts external-services
 giscus_comments: true
 related_posts: false
 ---
-<<<<<<< HEAD
-=======
 
->>>>>>> upstream/master
 This post shows how to add GISCUS comments.
